@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>iEducate - Transforming Online Education</title>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="pngegg.png" alt="logo"></div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">Welcome to dp Yoga's Website</p>
+                <p class="text-small"> Yoga is a type of exercise in which you move your body into various positions in order to become more fit or flexible, to improve your breathing, and to relax your mind</p>
+            </div>
+
+            <div class="secondHalf">
+                <img src="images.jpeg" alt="logo">
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="paras">
+        <p class="sectionTag text-big">Vrikshasana</p>
+        <p class="sectionSubTag text-small">Tree pose or Vrikshasana is a balancing asana. It is one of the very few standing poses in medieval hatha yoga, and remains popular in modern yoga as exercise.
+            सीधे खड़े होकर दायें पैर को उठा कर बायें जंघा पर इस प्रकार रखें की पैर का पंजा नीचे की ओर तथा एड़ी जंघाके मूल में लगी हुई हो। दोनों हाथों को नमस्कार की स्थिति मे सामने रखिए। इस स्थिति में यथाशक्ति बने रहने के पश्चात इसी प्रकार दूसरे पैर से अभ्यास करें </p>
+        </div>
+        <div class="thumbnail">
+            <img src="child1.png" alt="Yogaaasan" class="imgFluid">
+        </div>
+    </section>
+
+    <section class="section section-left" id="about">
+        <div class="paras">
+        <p class="sectionTag text-big">Dhanurasana</p>
+        <p class="sectionSubTag text-small">Dhanurasana is a back bending asana in hatha yoga and modern yoga as exercise. 
+            धनुरासन में शरीर की आकृति सामान्य तौर पर खिंचे हुए धनुष के समान हो जाती है, इसीलिए इसको धनुरासन कहते हैं। यह आसन करने के लिए सबसे पहले चटाई पर पेट के बल लेट जांय। अब अपने पैरों को घुटनों से मोड़कर हाथों से पैरों को पकड़ लें और सांस लेते हुए सिर, छाती और जांघ को उपर उठायें। शरीर के साथ कोई भी जोर जबरदस्ती ना करें।</p>
+        </div>
+        <div class="thumbnail">
+            <img src="yog.png" alt="Yogaaasan" class="imgFluid">
+        </div> 
+    </section>
+    <section class="section" id="services">
+        <div class="paras">
+        <p class="sectionTag text-big">Pranayama</p>
+        <p class="sectionSubTag text-small">Pranayama is the yogic practice of focusing on breath. In Sanskrit, prana means "vital life force", and yama means to gain control. In yoga, breath is associated with prana, thus, pranayama is a means to elevate the prana shakti, or life energies. Wikipedia
+            प्राणायाम योग के आठ अंगों में से एक है। अष्टांग योग में आठ प्रक्रियाएँ होती हैं- यम, नियम, आसन, प्राणायाम, प्रत्याहार, धारणा, ध्यान, तथा समाधि । प्राणायाम = प्राण + आयाम । इसका शाब्दिक अर्थ है - प्राण या श्वसन को लम्बा करना या फिर जीवनी शक्ति को लम्बा करना .</p>
+        
+        <p class="sectionSubTag text-small"> 
+           1) Yoga is over 5000 years old.<br>
+           2) The word 'yoga' comes from the Sanskrit language and literally means 'union'.<br>
+           3) Yoga is one of the oldest physical disciplines in the world.<br>
+           4) “Yoga is not a religion. ...<br>
+           5) Yoga was introduced to America in the 18th century.<br>
+           6) Yoga was originally practiced as a form of healing.<br>
+         </p>
+        </div>
+        <div class="thumbnail">
+            <img src="dipu1.png" alt="Yogaaasan" class="imgFluid">
+        </div>
+    </section>
+     
+    <section class="contact" id="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="form">
+            <form>
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your First Name">
+            <input class="form-input" type="text" name="name" id="lname" placeholder="Enter Your last Name">
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Your email">
+             <textarea class="form-input" name="text" id="text" cols="30" rows="10" placeholder="Ellaborate your concern"></textarea>
+             <input type="button" class="form-input" onclick="validation();" value="Validate all detail "><br>
+            <button class="btn btn-sm btn-dark">Submit</button>
+        </form>
+        </div>
+    </section>
+
+    <footer class="background">
+        <!-- <p class="text-footer">
+            Copyright &copy; 2027 - www.iEducate.com - All rights reserved
+        </p> -->
+        <ul id="ul">
+            <li id="id-1">
+            <a href="https://www.instagram.com/divyanshpatidar85/" class="anchor"><img src="insta2logo.png" alt="instagram" height="20rem" width="20px"></a>
+            <a href="https://www.youtube.com/channel/UC7-82g83FXJ0xt6ONp8mNsA" class="anchor"><img src="yt2logo.png" alt="youtube"height="20px" width="20px"></a>
+            <a href="https://telegram.org/" class="anchor"><img src="tele2logo.png" alt="telegram" height="20px" width="20px"></a>
+            </li>
+        </ul>
+    </footer>
+    <script>
+        function validation(){
+            let first_name=document.getElementById('name').value;
+            let last_name=document.getElementById('lname').value;
+            let mobile_number=document.getElementById('phone').value;
+            let em=document.getElementById('email').value;
+            let su=document.getElementById('text').value;
+            let regName =  /^[a-zA-Z]+$/;
+            let phoneno = /^[1-9]{1}[0-9]{9}$/;
+            if(!regName.test(first_name)){
+                alert('Enter valid first name');
+                return false;
+            }
+           else if(!regName.test(last_name)){
+                alert('Enter valid last name');
+                return false;
+            }
+            else if(!phoneno.test(mobile_number)){
+               alert('Enter valid mobile number');
+               return false;
+            }
+            else if(em.length==0){
+               alert('Email is null');
+               return false;
+            }
+            else if(su.length==0){
+               alert('Please fill suggestion box');
+               return false;
+            }else{
+                  return succes; 
+            }
+     
+        
+        }
+    </script>
+
+</body>
+
+</html>
